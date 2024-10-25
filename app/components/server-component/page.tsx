@@ -14,3 +14,4 @@ export default async function ServerComponentUserListPage(): JSX.Element {
         </section>
     );
 }
+

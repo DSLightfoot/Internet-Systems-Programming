@@ -6,6 +6,7 @@ interface ReqContext {
     }
 }
 
+
 export async function GET(req: NextRequest, context: ReqContext): Promise<NextResponse> {
     return NextResponse.json(
         {
